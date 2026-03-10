@@ -1,0 +1,20 @@
+# Simple Shopping Cart
+
+cart = []
+total = 0
+
+item1 = input("Enter first item: ")
+price1 = float(input("Enter price: "))
+
+item2 = input("Enter second item: ")
+price2 = float(input("Enter price: "))
+
+cart.append(item1)
+cart.append(item2)
+
+total = price1 + price2
+
+print("\nItems in your cart:")
+print(cart)
+
+print("Total price:", total)
